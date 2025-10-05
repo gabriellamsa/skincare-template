@@ -22,5 +22,183 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* Ultra Minimalist Coral Palette */
+.coral-50 {
+  color: #fef9f5;
+}
+.coral-100 {
+  color: #fdf2e9;
+}
+.coral-200 {
+  color: #fbe4d3;
+}
+.coral-300 {
+  color: #f8d6bd;
+}
+.coral-400 {
+  color: #f5c8a7;
+}
+.coral-500 {
+  color: #f2ba91;
+}
+.coral-600 {
+  color: #e8a87a;
+}
+.coral-700 {
+  color: #de9663;
+}
+.coral-800 {
+  color: #d4844c;
+}
+.coral-900 {
+  color: #ca7235;
+}
+
+.bg-coral-50 {
+  background-color: #fef9f5;
+}
+.bg-coral-100 {
+  background-color: #fdf2e9;
+}
+.bg-coral-200 {
+  background-color: #fbe4d3;
+}
+.bg-coral-300 {
+  background-color: #f8d6bd;
+}
+.bg-coral-400 {
+  background-color: #f5c8a7;
+}
+.bg-coral-500 {
+  background-color: #f2ba91;
+}
+.bg-coral-600 {
+  background-color: #e8a87a;
+}
+.bg-coral-700 {
+  background-color: #de9663;
+}
+.bg-coral-800 {
+  background-color: #d4844c;
+}
+.bg-coral-900 {
+  background-color: #ca7235;
+}
+
+.text-coral-50 {
+  color: #fef9f5;
+}
+.text-coral-100 {
+  color: #fdf2e9;
+}
+.text-coral-200 {
+  color: #fbe4d3;
+}
+.text-coral-300 {
+  color: #f8d6bd;
+}
+.text-coral-400 {
+  color: #f5c8a7;
+}
+.text-coral-500 {
+  color: #f2ba91;
+}
+.text-coral-600 {
+  color: #e8a87a;
+}
+.text-coral-700 {
+  color: #de9663;
+}
+.text-coral-800 {
+  color: #d4844c;
+}
+.text-coral-900 {
+  color: #ca7235;
+}
+
+.border-coral-50 {
+  border-color: #fef9f5;
+}
+.border-coral-100 {
+  border-color: #fdf2e9;
+}
+.border-coral-200 {
+  border-color: #fbe4d3;
+}
+.border-coral-300 {
+  border-color: #f8d6bd;
+}
+.border-coral-400 {
+  border-color: #f5c8a7;
+}
+.border-coral-500 {
+  border-color: #f2ba91;
+}
+.border-coral-600 {
+  border-color: #e8a87a;
+}
+.border-coral-700 {
+  border-color: #de9663;
+}
+.border-coral-800 {
+  border-color: #d4844c;
+}
+.border-coral-900 {
+  border-color: #ca7235;
+}
+
+/* Custom Typography */
+.font-light {
+  font-weight: 300;
+}
+
+.tracking-tight {
+  letter-spacing: -0.025em;
+}
+
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
+
+/* Smooth Animations */
+* {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #coral-300;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #coral-400;
+}
+
+/* Focus States */
+button:focus,
+a:focus {
+  outline: 2px solid coral-500;
+  outline-offset: 2px;
+}
+
+/* Selection */
+::selection {
+  background-color: coral-200;
+  color: coral-800;
 }
